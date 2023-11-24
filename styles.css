@@ -1,0 +1,66 @@
+body {
+  font-family: 'Lobster', cursive;
+  background-color: #3a606e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #AFEEEE;
+  padding: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} 
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+#app {
+  margin-top: 20px;
+}
+
+#taskInput {
+  font-family: 'Lobster', cursive;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+
+#addTaskBtn {
+  background-image: linear-gradient(to right, #FFA500, #FF69B4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-image 0.5s;
+}
+
+#addTaskBtn:hover {
+  background-position: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #C9AECB;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #FF69B4;
+}
